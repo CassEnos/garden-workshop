@@ -89,9 +89,11 @@
 }
 #level-8 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 15ch);
+  grid-auto-rows: 5ch;
 }
 #level-9 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, 5rem);
+  grid-template-rows: 5rem;
 }
