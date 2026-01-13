@@ -87,13 +87,15 @@
   display: grid;
   grid-template-columns: repeat(5, minmax(5ch, 1fr));
 }
+
 #level-8 {
   display: grid;
   grid-template-columns: repeat(auto-fit, 15ch);
   grid-auto-rows: 5ch;
 }
+
 #level-9 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 5rem);
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
   grid-template-rows: 5rem;
 }
